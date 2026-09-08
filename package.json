@@ -1,0 +1,17 @@
+{
+  "name": "cortex-github-chatbot-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone demo of Cortex's GitHub integration: sign in with the Cortex GitHub App, then ask a chatbot about your repositories.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "login": "node login.mjs",
+    "logout": "node logout.mjs",
+    "chat": "node chat.mjs",
+    "web": "node server.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.117.1"
+  }
+}
